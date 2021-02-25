@@ -172,9 +172,8 @@ echo($s);
 ?>
 <?php if (!isset($_GET["plain"])) : ?>
 </h1>
-<h3><a href="http://asie.pl/drama.php">Give it one more try!</a></h3>
-<h6>Over <?php echo $drama_inc+file_get_contents("/srv/http/drama.txt"); ?> dramas and counting!<br><br>
-Now a Minecraft mod by Mr_okushama! <a href="https://t.co/oc26NfyxKF">1.6.4</a> | <a href="http://t.co/lFTrmuHzVr">1.7.2</a></h6>
+<h3><a href="https://onlinecraft.ml/drama.php">Give it one more try!</a></h3>
+<h6>Over <?php echo $drama_inc+file_get_contents("/srv/http/drama.txt"); ?> dramas and counting!<br><br></h6>
 </body>
 </html>
 <?php endif; ?>

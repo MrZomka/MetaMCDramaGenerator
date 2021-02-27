@@ -1,32 +1,31 @@
-<?php
-	$drama_inc = 828615 - 803260 - 55164;
-	if(isset($_GET["count"])) {
-		echo $drama_inc + (int)file_get_contents("/srv/http/drama.txt");
-		exit(0);
-	}
-?>
 <?php if (!isset($_GET["plain"])) : ?>
 <!DOCTYPE html>
 <html>
-<head><title>ONLINECRAFT DRAMA GENERATOR</title>
+<head><title>OnlineCraft Drama Generator</title>
 <style type="text/css">
 h6 {
 	text-align: center;
 	font-weight: normal;
-	color: #777;
+	color: #fff;
 }
 a {
-	color: #55C;
+	color: #fff;
 }
 h3 {
 	text-align: center;
-	font-family: serif;
+	font-family: "Comic Sans MS";
+	color: #fff;
 	font-weight: normal;
 	font-size: 24px;
 }
 h1 {
 	text-align: center;
-	font-family: sans-serif;
+	color: #fff;
+	font-family: "Comic Sans MS";
+}
+body {
+	background-color: #78f5b4;
+	font-family: "Comic Sans MS";
 }
 </style>
 </head>
@@ -76,7 +75,7 @@ $sentences = array(
 	"[things] is not updated for the latest version of Minecraft.",
 	"[people] removes [things] from OnlineCraft.",
 	"[people] adds [things] to OnlineCraft.",
-	"[people] quits modding. Fans of [things] rage.",
+	"[people] quits playing Minecraft. Fans of [things] rage.",
 	"[people] is found to secretly like [things]",
 	"[people] openly hates [function] in [things]",
 	"[people] threatens to [ac1] [people] until they remove [things] from OnlineCraft",
@@ -104,7 +103,6 @@ $sentences = array(
 	"[people] [says] [things] is too much like [things]",
 	"[people] [says] [things] is a ripoff of [things]",
 	"[people] decides to [ban] [people] from OnlineCraft",
-	"[things] doesn't work with [things] since the latest update",
 	"[people] sues [things]",
 	"[people] [says] [things] is [adj] on [sites]",
 	"[people] [says] [things] is full of [badsoft]",
@@ -137,7 +135,6 @@ $sentences = array(
 	"[things] adds [badsoft] that only [activates] in OnlineCraft",
 	"[things] adds [badsoft] that only [activates] alongside [things]",
 	"[things] makes [people] invincible from [things] in OnlineCraft",
-	"[people] decides to base their entire modpack on [things]",
 	"[people] tweaks balance in [things] too much, annoying [sites]",
 	"[people] tweaks balance in [things] too much, annoying [people]",
 	"[people] [says] [people] is worse than [people]",
@@ -165,7 +162,6 @@ echo($s);
 <?php if (!isset($_GET["plain"])) : ?>
 </h1>
 <h3><a href="https://onlinecraft.ml/drama.php">Give it one more try!</a></h3>
-<h6>Over <?php echo $drama_inc+file_get_contents("/srv/http/drama.txt"); ?> dramas and counting!<br><br></h6>
 </body>
 </html>
 <?php endif; ?>

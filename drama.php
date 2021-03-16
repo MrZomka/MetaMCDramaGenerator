@@ -1,7 +1,7 @@
 <?php if (!isset($_GET["plain"])) : ?>
 <!DOCTYPE html>
 <html>
-<head><title>OnlineCraft Drama Generator</title>
+<head><title>MetaMC Drama Generator</title>
 <style type="text/css">
 h6 {
 	text-align: center;
@@ -30,7 +30,7 @@ body {
 </style>
 </head>
 <body>
-<h3>The OnlineCraft Drama Generator</h3>
+<h3>The MetaMC Drama Generator</h3>
 <h1><?php endif; ?>
 <?php
 $combinations = array(
@@ -45,7 +45,7 @@ $combinations = array(
 	"ban" => array("ban", "kick", "put a pumpkin of shame on", "add items mocking", "blacklist", "whitelist", "give admin rights to", "shame", "destroy"),
 	"worse" => array("worse", "better", "faster", "slower", "more stable", "less buggy"),
 	"ac1" => array("sue", "destroy the life of", "flame", "cause drama about", "complain about", "kick"),
-	"price" => array("200$", "250$", "300$", "350$", "400$", "450$", "500$", "600$", "1k OnlineCraft coins"),
+	"price" => array("200$", "250$", "300$", "350$", "400$", "450$", "500$", "600$", "1k MetaMC coins"),
 	"activates" => array("activates", "works", "functions", "breaks"),
 	"says" => array("says", "tweets", "claims", "confirms", "denies"),
 	"enormous" => array("big", "large", "huge", "gigantic", "enormous")
@@ -53,32 +53,32 @@ $combinations = array(
 $sentences = array(
 	"[people] launched a DoS attack on the website of [things]",
 	"[sites] urges everyone to stop using [things]",
-	"After a [enormous] amount of requests, OnlineCraft removes [things]",
-	"After a [enormous] amount of requests, OnlineCraft adds [things]",
-	"After a [enormous] amount of requests, OnlineCraft adds [function] to [things]",
+	"After a [enormous] amount of requests, MetaMC removes [things]",
+	"After a [enormous] amount of requests, MetaMC adds [things]",
+	"After a [enormous] amount of requests, MetaMC adds [function] to [things]",
 	"[people] plays [things] on Twitch",
 	"[people] fixes [function] in [things] to be unlike [things]",
 	"[things] makes [things] [crash], [sites] users complain",
 	"[people] complained about being in [things] on [sites]",
 	"[sites] considers [things] worse than [things]",
 	"[people] made [things] depend on [things]",
-	"[people] bans [people] from using [things] on OnlineCraft",
+	"[people] bans [people] from using [things] on MetaMC",
 	"[people] complains that [things] discussion doesn't belong on [sites]",
 	"[people] has a Patreon goal to add [function] to [things] for [price] a month",
 	"[people] has a Patreon goal to add [things] compatibility to [things] for [price] a month",
 	"[people] complains that [people] replaced [things] by [things]",
-	"[people] complains that [people] replaced [things] by [things] on OnlineCraft",
-	"[people] complains that [people] removed [function] on OnlineCraft",
+	"[people] complains that [people] replaced [things] by [things] on MetaMC",
+	"[people] complains that [people] removed [function] on MetaMC",
 	"[people] decided that [things] is too [adj] and replaced it with [things]",
 	"[people] [says] [things] is [adj].",
 	"[people] [says] [things] is literally [adj].",
 	"[things] is not updated for the latest version of Minecraft.",
-	"[people] removes [things] from OnlineCraft.",
-	"[people] adds [things] to OnlineCraft.",
+	"[people] removes [things] from MetaMC.",
+	"[people] adds [things] to MetaMC.",
 	"[people] quits playing Minecraft. Fans of [things] rage.",
 	"[people] is found to secretly like [things]",
 	"[people] openly hates [function] in [things]",
-	"[people] threatens to [ac1] [people] until they remove [things] from OnlineCraft",
+	"[people] threatens to [ac1] [people] until they remove [things] from MetaMC",
 	"[people] threatens to [ac1] [people] until they remove [function] from [things]",
 	"[people] threatens to [ac1] [people] until they add [function] to [things]",
 	"[people] came out in support of [things]",
@@ -93,7 +93,7 @@ $sentences = array(
 	"[things] fans claim that [things] should have better [function]",
 	"[people] [says] that [things] should be more like [things]",
 	"[people] [says] that [things] should be less like [things]",
-	"[people] rebalances [things] for OnlineCraft",
+	"[people] rebalances [things] for MetaMC",
 	"[people] adds [function] to [things] by request of [people]",
 	"[people] removes [function] from [things] by request of [people]",
 	"[people] removes compatibility between [things] and [things] by request of [people]",
@@ -102,7 +102,7 @@ $sentences = array(
 	"[people] quits the development team of [things]",
 	"[people] [says] [things] is too much like [things]",
 	"[people] [says] [things] is a ripoff of [things]",
-	"[people] decides to [ban] [people] from OnlineCraft",
+	"[people] decides to [ban] [people] from MetaMC",
 	"[people] sues [things]",
 	"[people] [says] [things] is [adj] on [sites]",
 	"[people] [says] [things] is full of [badsoft]",
@@ -132,9 +132,9 @@ $sentences = array(
 	"[things] makes [things] [crash] when used with [things]",
 	"[things] makes [things] [crash] when used by [people]",
 	"[things] makes [things] crash [things] when used by [people]",
-	"[things] adds [badsoft] that only [activates] in OnlineCraft",
+	"[things] adds [badsoft] that only [activates] in MetaMC",
 	"[things] adds [badsoft] that only [activates] alongside [things]",
-	"[things] makes [people] invincible from [things] in OnlineCraft",
+	"[things] makes [people] invincible from [things] in MetaMC",
 	"[people] tweaks balance in [things] too much, annoying [sites]",
 	"[people] tweaks balance in [things] too much, annoying [people]",
 	"[people] [says] [people] is worse than [people]",
@@ -161,7 +161,7 @@ echo($s);
 ?>
 <?php if (!isset($_GET["plain"])) : ?>
 </h1>
-<h3><a href="https://onlinecraft.ml/drama.php">Give it one more try!</a></h3>
+<h3><a href="https://metamc.net/drama.php">Give it one more try!</a></h3>
 </body>
 </html>
 <?php endif; ?>

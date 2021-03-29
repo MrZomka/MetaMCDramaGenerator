@@ -34,7 +34,7 @@ body {
 <h1><?php endif; ?>
 <?php
 $combinations = array(
-	"people" => array("You", "Mr.Zomka", "*GreenGuns", "Sloth", "some random kid", "Mati18", "Bo242", "__Vikt0r__", "SuperPirateXV", "Epicsaurus"),
+	"people" => array("You", "Mr.Zomka", "*GreenGuns", "Sloth", "some random kid", "unkown_creatures", "*ScrewyBasil2902", "EnderC00kiez", "*NethrC00kez", "Bo242", "22Joshi22", "*FondGurgie", "Soaren_the_Great", "SuperPirateXV", "Epicsaurus"),
 	"sites" => array("YouTube", "Twitter", "Reddit", "Google", "Discord", "Twitch"),
 	"things" => array("Minecraft", "Server", "SkyWars", "BedWars", "Lucky SkyWars", "BedWars Hard", "Survival Games", "Spleef", "Build Battle", "Guess The Build", "Parkour", "SkyBlock", "Anti-Cheat", "Nory The Bot"),
 	"function" => array("Oceania servers", "Asian servers", "US servers", "free Owner rank", "Bedrock skin support", "unban", "1.7.x support", "Bedrock 1.16.4 support", "Anti-Cheat", "Nory The Bot"),
@@ -51,7 +51,7 @@ $combinations = array(
 	"enormous" => array("big", "large", "huge", "gigantic", "enormous")
 );
 $sentences = array(
-	"[people] launched a DoS attack on the website of [things]",
+	"[people] launched a DoS attack on the website of MetaMC",
 	"[sites] urges everyone to stop using [things]",
 	"After a [enormous] amount of requests, MetaMC removes [things]",
 	"After a [enormous] amount of requests, MetaMC adds [things]",
